@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationsTableViewCell" rowHeight="80" id="KGk-i7-Jjw" customClass="NotificationsTableViewCell" customModule="OnTime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Clu-wc-F1C">
+                        <rect key="frame" x="8" y="8" width="357" height="64"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 Sep 2021 08:00 am" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fg5-5N-Sim">
+                                <rect key="frame" x="186.5" y="34" width="162.5" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="7Gl-jf-2yf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                                <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meeting with Client" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlT-kM-XWw">
+                                <rect key="frame" x="8" y="8" width="341" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MbK-Kh-rhg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23529411764705882" green="0.12156862745098039" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fg5-5N-Sim" firstAttribute="top" secondItem="HlT-kM-XWw" secondAttribute="bottom" constant="5" id="5df-gc-0ra"/>
+                            <constraint firstAttribute="trailing" secondItem="Fg5-5N-Sim" secondAttribute="trailing" constant="8" id="Wnc-1F-at3"/>
+                            <constraint firstItem="HlT-kM-XWw" firstAttribute="top" secondItem="Clu-wc-F1C" secondAttribute="top" constant="8" id="b9i-Gl-NkX"/>
+                            <constraint firstItem="HlT-kM-XWw" firstAttribute="leading" secondItem="Clu-wc-F1C" secondAttribute="leading" constant="8" id="bKI-wL-Jlx"/>
+                            <constraint firstAttribute="trailing" secondItem="HlT-kM-XWw" secondAttribute="trailing" constant="8" id="wL0-ws-Kzy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Clu-wc-F1C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="2oN-oL-Jd5"/>
+                    <constraint firstItem="Clu-wc-F1C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="aIR-ak-ues"/>
+                    <constraint firstAttribute="bottom" secondItem="Clu-wc-F1C" secondAttribute="bottom" constant="8" id="acl-yE-BXb"/>
+                    <constraint firstAttribute="trailing" secondItem="Clu-wc-F1C" secondAttribute="trailing" constant="8" id="lox-Yh-0iF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="baseView" destination="Clu-wc-F1C" id="BVm-fs-9Kc"/>
+                <outlet property="dateLbl" destination="Fg5-5N-Sim" id="kh6-cc-ZZq"/>
+                <outlet property="titleLbl" destination="HlT-kM-XWw" id="PLG-Lf-tRI"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="77.008928571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
