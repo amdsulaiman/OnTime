@@ -3,10 +3,11 @@
 OnTime App is for Scheduling your day and prioritizing your task and also for saving notes.
 
 <p align="row">
-<img src="https://user-images.githubusercontent.com/73575643/151656722-6a8d1c3a-7011-4196-9ca8-3f3ea1b94674.png" width="400" >
- <img src="https://user-images.githubusercontent.com/73575643/151656728-e80b0709-3954-42a8-9e91-c7ee4e4d2728.png" width="400" >
- <img src= "https://user-images.githubusercontent.com/73575643/151656729-9730f045-b6a2-4364-b853-3503544b55d8.png" width="400" >
-<img src= "https://user-images.githubusercontent.com/73575643/151656731-d6ea8695-51cc-457c-a0c1-3b2c2faeb213.png" width="400" >
+<img src="https://user-images.githubusercontent.com/73575643/151658260-e64f040e-c441-49b9-8372-2422957bb40f.png" width="400" >
+ <img src="https://user-images.githubusercontent.com/73575643/151658263-58add3b4-c26d-40b1-8b4f-52e52747577d.png" width="400" >
+ <img src= "https://user-images.githubusercontent.com/73575643/151658265-cf439dff-7b43-40ed-85da-16a7ec9e0187.png" width="400" >
+<img src= "https://user-images.githubusercontent.com/73575643/151658276-e9368768-136c-451b-8974-0405b62f2dae.png" width="400" >
+ <img src= "https://user-images.githubusercontent.com/73575643/151658280-f2871b28-07d9-40b9-9520-5b6c1ce0c97b.png" width="400" >
 </p>
 
 # Requirements
